@@ -1,6 +1,6 @@
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  site: 'https://xingroam.github.io/',
-  base: '/sponsor',
+  site: 'https://xingroam.github.io/sponsor',
+  base: '/',
 });
