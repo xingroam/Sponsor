@@ -1,7 +1,5 @@
 ---
 import Layout from '../layouts/Layout.astro';
-
-const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
 <Layout title="Sponsor">
@@ -10,11 +8,11 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
     <h3>Ethereum L1 L2 (Ethereum / BNB Chain / Base / Robinhood Chain / Arbitrum / Avalanche / Monad)</h3>
 
-    <img src={`${base}/sponsor/eth.png`} alt="Ethereum" />
+    <img src={`/eth.png`} alt="Ethereum" />
 
     <h3>Solana</h3>
 
-    <img src={`${base}/sponsor/sol.png`} alt="Solana" />
+    <img src={`/sol.png`} alt="Solana" />
   </main>
 </Layout>
 
