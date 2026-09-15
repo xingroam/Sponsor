@@ -4,14 +4,13 @@ import Layout from '../layouts/Layout.astro';
 
 <Layout title="Sponsor">
   <main>
-    <h1>Thank you for your support</h1>
-
+    <h1>XingRoam</h1>
+    <h2>Thank you for your support</h2>
     <h3>Ethereum L1 L2 (Ethereum / BNB Chain / Base / Robinhood Chain / Arbitrum / Avalanche / Monad)</h3>
-
+    <p>0x4dfe59adc0d96ca9f4138b1b2627c87b0328872e</p>
     <img src={`/Sponsor/eth.png`} alt="Ethereum" />
-
     <h3>Solana</h3>
-
+    <p>4t1wd9PMhmNzGNKyZeNhrCTDoUP7TsoayqM1wXHSCN4z</p>
     <img src={`/Sponsor/sol.png`} alt="Solana" />
   </main>
 </Layout>
@@ -20,15 +19,21 @@ import Layout from '../layouts/Layout.astro';
   main {
     max-width: 720px;
     margin: 0 auto;
-    padding: 3rem 1.5rem;
+    padding: 2rem 2rem;
   }
-
+  h1, h2 {
+    margin: 1rem 0 0 0;
+    font-size: 2rem;
+  }
   h3 {
+    margin: 1rem 0 0 0;
     font-size: 1.5rem;
-    margin: 2rem 0 1rem;
   }
-
+  p {
+    margin: 1rem 0 0 0;
+  }
   img {
+    margin: 1rem 0 0 0;
     max-width: 320px;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
